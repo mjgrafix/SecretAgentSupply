@@ -7,24 +7,37 @@
     <link rel="stylesheet" href="./resources/css/style.css" type="text/css">
   </head>
   <body>
-    <div class="logo">
-      <img src="./resources/images/logo.png" alt="logo">
-      <p>secret agent supply inc.</p>
-    </div>
-    <div class="main-banner">
-      <div class="featured">
-        <h5>new arrival</h5>
-        <h3>sport bikes and motocycles</h3>
+    <!-- top strip with the logo and name -->
+    <div class="top-strip">
+      <div class="logo">
+        <img src="./resources/images/logo.png" alt="logo">
+        <p>secret agent supply inc.</p>
       </div>
     </div>
-    <nav>
-      <span><a href="#">Eyewear</a></span>
-      <span><a href="#">Apparel</a></span>
-      <span><a href="#">Gadgets</a></span>
-      <span><a href="#">Vehicles</a></span>
-      <span><a href="#">Classes</a></span>
-      <span><a href="#">Contact</a></span>
-    </nav>
+
+    <!-- main-banner with the big picture -->
+    <div class="main-banner">
+      <div class="featured">
+        <div class="featured-text">
+          <h5>new arrival</h5>
+          <h3>sport bikes and motocycles</h3>
+        </div>
+      </div>
+    </div>
+
+    <!-- navigation strip -->
+    <div class="nav-strip">
+      <nav>
+        <span><a href="#">Eyewear</a></span>
+        <span><a href="#">Apparel</a></span>
+        <span><a href="#">Gadgets</a></span>
+        <span><a href="#">Vehicles</a></span>
+        <span><a href="#">Classes</a></span>
+        <span><a href="#">Contact</a></span>
+      </nav>
+    </div>
+
+    <!-- main part: products, location and hours -->
     <main class="container">
       <!-- products: pen, watch and glasses -->
       <div class="product-grid">
@@ -41,21 +54,23 @@
           <h5>Thermal Glasses</h5>
         </div>
       </div>
+
       <!-- location and hours info -->
       <div class="info">
-        <div class="location">
+        <div class="info-item">
           <h5>Location</h5>
           <p>-47.346436, 84.32354</p>
         </div>
-        <div class="hours">
+        <div class="info-item">
           <h5>Hours</h5>
           <p>0800 - 1800</p>
         </div>
       </div>
     </main>
+
     <!-- footer w/copyright -->
     <footer>
-      <p>Copyright Secret Agent Supply Inc.</p>
+      <p class="footer-text">Copyright Secret Agent Supply Inc.</p>
     </footer>
   </body>
 </html>
